@@ -24,9 +24,6 @@
     "./package.json": "./package.json"
   },
   "sideEffects": false,
-  "files": [
-    "dist"
-  ],
   "scripts": {
     "gen:data": "tsx scripts/gen-data.ts",
     "gen:docs": "tsx scripts/gen-docs.ts",
