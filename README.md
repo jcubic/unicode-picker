@@ -22,6 +22,11 @@ and receive it through an event — then insert it wherever you like.
 Built on Unicode **17.0.0** data (via [`@unicode/unicode-17.0.0`](https://github.com/node-unicode/unicode-17.0.0),
 used only at build time).
 
+## Screenshots
+
+![Unicode Picker Dark Mode](https://github.com/jcubic/unicode-picker/blob/master/.github/screenshot-dark.png?raw=true)
+![Unicode Picker Light Mode](https://github.com/jcubic/unicode-picker/blob/master/.github/screenshot-light.png?raw=true)
+
 ## Install
 
 ```sh
