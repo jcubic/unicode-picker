@@ -2,22 +2,21 @@
 
 [![npm](https://img.shields.io/badge/npm-0.1.0-yellow.svg)](https://www.npmjs.com/package/unicode-picker)
 [![Tests](https://github.com/jcubic/unicode-picker/actions/workflows/test.yml/badge.svg)](https://github.com/jcubic/unicode-picker/actions/workflows/test.yml)
+[![unicode-picker GitHub repo](https://img.shields.io/badge/github-unicode--picker-orange?logo=github)](https://github.com/jcubic/unicode-picker)
 [![Coverage Status](https://coveralls.io/repos/github/jcubic/unicode-picker/badge.svg?branch=master)](https://coveralls.io/github/jcubic/unicode-picker?branch=master)
 [![LICENSE MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jcubic/unicode-picker/blob/master/LICENSE)
 
-A framework-agnostic, tree-shakable **Unicode character picker** component, written in
-vanilla TypeScript. Render a searchable grid of Unicode characters, let the user pick one,
-and receive it through an event — then insert it wherever you like.
+Vanilla TypeScript framework-agnostic **Unicode character picker** component.
 
-- 🧩 **Data-agnostic core** — bring your own characters (a few hardcoded glyphs, a whole
+- **Data-agnostic core** — bring your own characters (a few hardcoded glyphs, a whole
   Unicode block, or the full set). The core bundle ships **no character data**.
-- 🌳 **Tree-shakable dataset** — `import { greek, math } from 'unicode-picker/data'` pulls
+- **Tree-shakable dataset** — `import { greek, math } from 'unicode-picker/data'` pulls
   only those blocks.
-- 🎯 **Popover** positioning via the native Popover API, anchored to any element.
-- 🧷 **Insert = event only** — a `unicode-picker:insert` event and an `onInsert` callback;
+- **Popover** positioning via the native Popover API, anchored to any element.
+- **Insert = event only** — a `unicode-picker:insert` event and an `onInsert` callback;
   the library never touches your editor.
-- 🌗 Light / dark / auto theme, Shadow DOM style isolation, keyboard navigation, search.
-- 📦 Ships as an **ESM module** and a **browser IIFE** (`<script>`, `window.Picker`).
+- Light / dark / auto theme, Shadow DOM style isolation, keyboard navigation, search.
+- Ships as an **ESM module** and a **browser IIFE** (`<script>`, `window.Picker`).
 
 Built on Unicode **17.0.0** data (via [`@unicode/unicode-17.0.0`](https://github.com/node-unicode/unicode-17.0.0),
 used only at build time).
