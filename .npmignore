@@ -1,0 +1,32 @@
+# Only the built dist/ is published. Everything else is excluded here.
+# (package.json, README, and LICENSE are always included by npm.)
+
+# Source & generators
+src/
+providers/
+scripts/
+
+# Tests, demo, generated docs, design assets
+tests/
+demo/
+docs/
+design/
+coverage/
+test-results/
+playwright-report/
+
+# CI & tooling config
+.github/
+.agent-shell/
+eslint.config.js
+tsconfig.json
+tsup.config.ts
+vitest.config.ts
+.prettierrc.json
+.gitignore
+.editorconfig
+
+# Misc
+*.tgz
+*~
+PLAN.md
