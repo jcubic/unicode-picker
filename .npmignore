@@ -28,4 +28,4 @@ vitest.config.ts
 # Misc
 *.tgz
 *~
-PLAN.md
+CHANGELOG.md
