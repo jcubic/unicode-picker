@@ -77,6 +77,7 @@ export class Picker implements PickerInstance {
 
     this.wireEvents();
     this.updateInspector();
+    this.updateThemeIcon();
   }
 
   // ---- lifecycle -----------------------------------------------------------
@@ -141,8 +142,22 @@ export class Picker implements PickerInstance {
 
   setTheme(theme: Theme): this {
     this.element.dataset.theme = theme;
-    this.shell.themeBtn.textContent = theme === 'dark' ? '☀' : '☾';
+    this.updateThemeIcon();
     return this;
+  }
+
+  /** Icon reflects the *effective* theme so `auto` shows the right glyph. */
+  private updateThemeIcon(): void {
+    this.shell.themeBtn.textContent = this.effectiveTheme() === 'dark' ? '☀' : '☾';
+  }
+
+  /** The theme actually in effect, resolving `auto` via `prefers-color-scheme`. */
+  private effectiveTheme(): 'light' | 'dark' {
+    const theme = this.element.dataset.theme;
+    if (theme === 'dark' || theme === 'light') return theme;
+    return typeof matchMedia !== 'undefined' && matchMedia('(prefers-color-scheme: dark)').matches
+      ? 'dark'
+      : 'light';
   }
 
   search(query: string): this {
@@ -289,8 +304,9 @@ export class Picker implements PickerInstance {
     this.cleanups.push(() => searchInput.removeEventListener('input', onInput));
 
     const onTheme = () => {
-      const next: Theme = this.element.dataset.theme === 'dark' ? 'light' : 'dark';
-      this.setTheme(next);
+      // Flip the effective theme, so a single click always changes appearance
+      // even when starting from `auto` (which may already resolve to dark).
+      this.setTheme(this.effectiveTheme() === 'dark' ? 'light' : 'dark');
     };
     themeBtn.addEventListener('click', onTheme);
     this.cleanups.push(() => themeBtn.removeEventListener('click', onTheme));

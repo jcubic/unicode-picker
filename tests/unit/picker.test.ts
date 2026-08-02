@@ -129,6 +129,25 @@ describe('Picker', () => {
     expect(shadow(picker).querySelector('.iconbtn')!.textContent).toBe('☀');
   });
 
+  it('theme toggle flips on the first click when auto resolves to dark', () => {
+    const original = window.matchMedia;
+    window.matchMedia = ((q: string) =>
+      ({ matches: /dark/.test(q), media: q, addEventListener() {}, removeEventListener() {} }) as unknown as MediaQueryList) as typeof window.matchMedia;
+    try {
+      const picker = Picker({ include: DATA, theme: 'auto' });
+      const btn = shadow(picker).querySelector<HTMLButtonElement>('.iconbtn')!;
+      // auto currently resolves to dark, so the icon shows the "sun" (go light).
+      expect(btn.textContent).toBe('☀');
+      // First click must switch to light (not be a no-op).
+      btn.click();
+      expect(picker.element.dataset.theme).toBe('light');
+      btn.click();
+      expect(picker.element.dataset.theme).toBe('dark');
+    } finally {
+      window.matchMedia = original;
+    }
+  });
+
   it('on() returns an unsubscribe function', async () => {
     const picker = Picker({ include: DATA }).append(document.body).show();
     const sr = await waitForGrid(picker);
