@@ -1,6 +1,6 @@
 # unicode-picker
 
-[![npm](https://img.shields.io/badge/npm-0.1.0-yellow.svg)](https://www.npmjs.com/package/unicode-picker)
+[![npm](https://img.shields.io/badge/npm-0.1.1-yellow.svg)](https://www.npmjs.com/package/unicode-picker)
 [![Tests](https://github.com/jcubic/unicode-picker/actions/workflows/test.yml/badge.svg)](https://github.com/jcubic/unicode-picker/actions/workflows/test.yml)
 [![unicode-picker GitHub repo](https://img.shields.io/badge/github-unicode--picker-orange?logo=github)](https://github.com/jcubic/unicode-picker)
 [![Coverage Status](https://coveralls.io/repos/github/jcubic/unicode-picker/badge.svg?branch=master)](https://coveralls.io/github/jcubic/unicode-picker?branch=master)

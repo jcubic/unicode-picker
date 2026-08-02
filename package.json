@@ -1,6 +1,6 @@
 {
   "name": "unicode-picker",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A framework-agnostic, tree-shakable Unicode character picker component in vanilla TypeScript",
   "type": "module",
   "main": "./dist/index.js",
