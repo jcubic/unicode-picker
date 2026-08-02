@@ -1,0 +1,41 @@
+# Buginese
+
+```ts
+import { buginese } from 'unicode-picker/data';
+```
+
+- Range: U+1A00–U+1A1F
+- Characters: 30
+
+| Char | Code point | Decimal | Name |
+| --- | --- | --- | --- |
+| `ᨀ` | U+1A00 | 6656 | BUGINESE LETTER KA |
+| `ᨁ` | U+1A01 | 6657 | BUGINESE LETTER GA |
+| `ᨂ` | U+1A02 | 6658 | BUGINESE LETTER NGA |
+| `ᨃ` | U+1A03 | 6659 | BUGINESE LETTER NGKA |
+| `ᨄ` | U+1A04 | 6660 | BUGINESE LETTER PA |
+| `ᨅ` | U+1A05 | 6661 | BUGINESE LETTER BA |
+| `ᨆ` | U+1A06 | 6662 | BUGINESE LETTER MA |
+| `ᨇ` | U+1A07 | 6663 | BUGINESE LETTER MPA |
+| `ᨈ` | U+1A08 | 6664 | BUGINESE LETTER TA |
+| `ᨉ` | U+1A09 | 6665 | BUGINESE LETTER DA |
+| `ᨊ` | U+1A0A | 6666 | BUGINESE LETTER NA |
+| `ᨋ` | U+1A0B | 6667 | BUGINESE LETTER NRA |
+| `ᨌ` | U+1A0C | 6668 | BUGINESE LETTER CA |
+| `ᨍ` | U+1A0D | 6669 | BUGINESE LETTER JA |
+| `ᨎ` | U+1A0E | 6670 | BUGINESE LETTER NYA |
+| `ᨏ` | U+1A0F | 6671 | BUGINESE LETTER NYCA |
+| `ᨐ` | U+1A10 | 6672 | BUGINESE LETTER YA |
+| `ᨑ` | U+1A11 | 6673 | BUGINESE LETTER RA |
+| `ᨒ` | U+1A12 | 6674 | BUGINESE LETTER LA |
+| `ᨓ` | U+1A13 | 6675 | BUGINESE LETTER VA |
+| `ᨔ` | U+1A14 | 6676 | BUGINESE LETTER SA |
+| `ᨕ` | U+1A15 | 6677 | BUGINESE LETTER A |
+| `ᨖ` | U+1A16 | 6678 | BUGINESE LETTER HA |
+| `ᨗ` | U+1A17 | 6679 | BUGINESE VOWEL SIGN I |
+| `ᨘ` | U+1A18 | 6680 | BUGINESE VOWEL SIGN U |
+| `ᨙ` | U+1A19 | 6681 | BUGINESE VOWEL SIGN E |
+| `ᨚ` | U+1A1A | 6682 | BUGINESE VOWEL SIGN O |
+| `ᨛ` | U+1A1B | 6683 | BUGINESE VOWEL SIGN AE |
+| `᨞` | U+1A1E | 6686 | BUGINESE PALLAWA |
+| `᨟` | U+1A1F | 6687 | BUGINESE END OF SECTION |

@@ -1,0 +1,59 @@
+# Lisu
+
+```ts
+import { lisu } from 'unicode-picker/data';
+```
+
+- Range: U+A4D0–U+A4FF
+- Characters: 48
+
+| Char | Code point | Decimal | Name |
+| --- | --- | --- | --- |
+| `ꓐ` | U+A4D0 | 42192 | LISU LETTER BA |
+| `ꓑ` | U+A4D1 | 42193 | LISU LETTER PA |
+| `ꓒ` | U+A4D2 | 42194 | LISU LETTER PHA |
+| `ꓓ` | U+A4D3 | 42195 | LISU LETTER DA |
+| `ꓔ` | U+A4D4 | 42196 | LISU LETTER TA |
+| `ꓕ` | U+A4D5 | 42197 | LISU LETTER THA |
+| `ꓖ` | U+A4D6 | 42198 | LISU LETTER GA |
+| `ꓗ` | U+A4D7 | 42199 | LISU LETTER KA |
+| `ꓘ` | U+A4D8 | 42200 | LISU LETTER KHA |
+| `ꓙ` | U+A4D9 | 42201 | LISU LETTER JA |
+| `ꓚ` | U+A4DA | 42202 | LISU LETTER CA |
+| `ꓛ` | U+A4DB | 42203 | LISU LETTER CHA |
+| `ꓜ` | U+A4DC | 42204 | LISU LETTER DZA |
+| `ꓝ` | U+A4DD | 42205 | LISU LETTER TSA |
+| `ꓞ` | U+A4DE | 42206 | LISU LETTER TSHA |
+| `ꓟ` | U+A4DF | 42207 | LISU LETTER MA |
+| `ꓠ` | U+A4E0 | 42208 | LISU LETTER NA |
+| `ꓡ` | U+A4E1 | 42209 | LISU LETTER LA |
+| `ꓢ` | U+A4E2 | 42210 | LISU LETTER SA |
+| `ꓣ` | U+A4E3 | 42211 | LISU LETTER ZHA |
+| `ꓤ` | U+A4E4 | 42212 | LISU LETTER ZA |
+| `ꓥ` | U+A4E5 | 42213 | LISU LETTER NGA |
+| `ꓦ` | U+A4E6 | 42214 | LISU LETTER HA |
+| `ꓧ` | U+A4E7 | 42215 | LISU LETTER XA |
+| `ꓨ` | U+A4E8 | 42216 | LISU LETTER HHA |
+| `ꓩ` | U+A4E9 | 42217 | LISU LETTER FA |
+| `ꓪ` | U+A4EA | 42218 | LISU LETTER WA |
+| `ꓫ` | U+A4EB | 42219 | LISU LETTER SHA |
+| `ꓬ` | U+A4EC | 42220 | LISU LETTER YA |
+| `ꓭ` | U+A4ED | 42221 | LISU LETTER GHA |
+| `ꓮ` | U+A4EE | 42222 | LISU LETTER A |
+| `ꓯ` | U+A4EF | 42223 | LISU LETTER AE |
+| `ꓰ` | U+A4F0 | 42224 | LISU LETTER E |
+| `ꓱ` | U+A4F1 | 42225 | LISU LETTER EU |
+| `ꓲ` | U+A4F2 | 42226 | LISU LETTER I |
+| `ꓳ` | U+A4F3 | 42227 | LISU LETTER O |
+| `ꓴ` | U+A4F4 | 42228 | LISU LETTER U |
+| `ꓵ` | U+A4F5 | 42229 | LISU LETTER UE |
+| `ꓶ` | U+A4F6 | 42230 | LISU LETTER UH |
+| `ꓷ` | U+A4F7 | 42231 | LISU LETTER OE |
+| `ꓸ` | U+A4F8 | 42232 | LISU LETTER TONE MYA TI |
+| `ꓹ` | U+A4F9 | 42233 | LISU LETTER TONE NA PO |
+| `ꓺ` | U+A4FA | 42234 | LISU LETTER TONE MYA CYA |
+| `ꓻ` | U+A4FB | 42235 | LISU LETTER TONE MYA BO |
+| `ꓼ` | U+A4FC | 42236 | LISU LETTER TONE MYA NA |
+| `ꓽ` | U+A4FD | 42237 | LISU LETTER TONE MYA JEU |
+| `꓾` | U+A4FE | 42238 | LISU PUNCTUATION COMMA |
+| `꓿` | U+A4FF | 42239 | LISU PUNCTUATION FULL STOP |

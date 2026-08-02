@@ -1,0 +1,73 @@
+# NKo
+
+```ts
+import { nko } from 'unicode-picker/data';
+```
+
+- Range: U+07C0–U+07FF
+- Characters: 62
+
+| Char | Code point | Decimal | Name |
+| --- | --- | --- | --- |
+| `߀` | U+07C0 | 1984 | NKO DIGIT ZERO |
+| `߁` | U+07C1 | 1985 | NKO DIGIT ONE |
+| `߂` | U+07C2 | 1986 | NKO DIGIT TWO |
+| `߃` | U+07C3 | 1987 | NKO DIGIT THREE |
+| `߄` | U+07C4 | 1988 | NKO DIGIT FOUR |
+| `߅` | U+07C5 | 1989 | NKO DIGIT FIVE |
+| `߆` | U+07C6 | 1990 | NKO DIGIT SIX |
+| `߇` | U+07C7 | 1991 | NKO DIGIT SEVEN |
+| `߈` | U+07C8 | 1992 | NKO DIGIT EIGHT |
+| `߉` | U+07C9 | 1993 | NKO DIGIT NINE |
+| `ߊ` | U+07CA | 1994 | NKO LETTER A |
+| `ߋ` | U+07CB | 1995 | NKO LETTER EE |
+| `ߌ` | U+07CC | 1996 | NKO LETTER I |
+| `ߍ` | U+07CD | 1997 | NKO LETTER E |
+| `ߎ` | U+07CE | 1998 | NKO LETTER U |
+| `ߏ` | U+07CF | 1999 | NKO LETTER OO |
+| `ߐ` | U+07D0 | 2000 | NKO LETTER O |
+| `ߑ` | U+07D1 | 2001 | NKO LETTER DAGBASINNA |
+| `ߒ` | U+07D2 | 2002 | NKO LETTER N |
+| `ߓ` | U+07D3 | 2003 | NKO LETTER BA |
+| `ߔ` | U+07D4 | 2004 | NKO LETTER PA |
+| `ߕ` | U+07D5 | 2005 | NKO LETTER TA |
+| `ߖ` | U+07D6 | 2006 | NKO LETTER JA |
+| `ߗ` | U+07D7 | 2007 | NKO LETTER CHA |
+| `ߘ` | U+07D8 | 2008 | NKO LETTER DA |
+| `ߙ` | U+07D9 | 2009 | NKO LETTER RA |
+| `ߚ` | U+07DA | 2010 | NKO LETTER RRA |
+| `ߛ` | U+07DB | 2011 | NKO LETTER SA |
+| `ߜ` | U+07DC | 2012 | NKO LETTER GBA |
+| `ߝ` | U+07DD | 2013 | NKO LETTER FA |
+| `ߞ` | U+07DE | 2014 | NKO LETTER KA |
+| `ߟ` | U+07DF | 2015 | NKO LETTER LA |
+| `ߠ` | U+07E0 | 2016 | NKO LETTER NA WOLOSO |
+| `ߡ` | U+07E1 | 2017 | NKO LETTER MA |
+| `ߢ` | U+07E2 | 2018 | NKO LETTER NYA |
+| `ߣ` | U+07E3 | 2019 | NKO LETTER NA |
+| `ߤ` | U+07E4 | 2020 | NKO LETTER HA |
+| `ߥ` | U+07E5 | 2021 | NKO LETTER WA |
+| `ߦ` | U+07E6 | 2022 | NKO LETTER YA |
+| `ߧ` | U+07E7 | 2023 | NKO LETTER NYA WOLOSO |
+| `ߨ` | U+07E8 | 2024 | NKO LETTER JONA JA |
+| `ߩ` | U+07E9 | 2025 | NKO LETTER JONA CHA |
+| `ߪ` | U+07EA | 2026 | NKO LETTER JONA RA |
+| `߫` | U+07EB | 2027 | NKO COMBINING SHORT HIGH TONE |
+| `߬` | U+07EC | 2028 | NKO COMBINING SHORT LOW TONE |
+| `߭` | U+07ED | 2029 | NKO COMBINING SHORT RISING TONE |
+| `߮` | U+07EE | 2030 | NKO COMBINING LONG DESCENDING TONE |
+| `߯` | U+07EF | 2031 | NKO COMBINING LONG HIGH TONE |
+| `߰` | U+07F0 | 2032 | NKO COMBINING LONG LOW TONE |
+| `߱` | U+07F1 | 2033 | NKO COMBINING LONG RISING TONE |
+| `߲` | U+07F2 | 2034 | NKO COMBINING NASALIZATION MARK |
+| `߳` | U+07F3 | 2035 | NKO COMBINING DOUBLE DOT ABOVE |
+| `ߴ` | U+07F4 | 2036 | NKO HIGH TONE APOSTROPHE |
+| `ߵ` | U+07F5 | 2037 | NKO LOW TONE APOSTROPHE |
+| `߶` | U+07F6 | 2038 | NKO SYMBOL OO DENNEN |
+| `߷` | U+07F7 | 2039 | NKO SYMBOL GBAKURUNEN |
+| `߸` | U+07F8 | 2040 | NKO COMMA |
+| `߹` | U+07F9 | 2041 | NKO EXCLAMATION MARK |
+| `ߺ` | U+07FA | 2042 | NKO LAJANYALAN |
+| `߽` | U+07FD | 2045 | NKO DANTAYALAN |
+| `߾` | U+07FE | 2046 | NKO DOROME SIGN |
+| `߿` | U+07FF | 2047 | NKO TAMAN SIGN |

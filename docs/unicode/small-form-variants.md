@@ -1,0 +1,37 @@
+# Small Form Variants
+
+```ts
+import { smallFormVariants } from 'unicode-picker/data';
+```
+
+- Range: U+FE50–U+FE6B
+- Characters: 26
+
+| Char | Code point | Decimal | Name |
+| --- | --- | --- | --- |
+| `﹐` | U+FE50 | 65104 | SMALL COMMA |
+| `﹑` | U+FE51 | 65105 | SMALL IDEOGRAPHIC COMMA |
+| `﹒` | U+FE52 | 65106 | SMALL FULL STOP |
+| `﹔` | U+FE54 | 65108 | SMALL SEMICOLON |
+| `﹕` | U+FE55 | 65109 | SMALL COLON |
+| `﹖` | U+FE56 | 65110 | SMALL QUESTION MARK |
+| `﹗` | U+FE57 | 65111 | SMALL EXCLAMATION MARK |
+| `﹘` | U+FE58 | 65112 | SMALL EM DASH |
+| `﹙` | U+FE59 | 65113 | SMALL LEFT PARENTHESIS |
+| `﹚` | U+FE5A | 65114 | SMALL RIGHT PARENTHESIS |
+| `﹛` | U+FE5B | 65115 | SMALL LEFT CURLY BRACKET |
+| `﹜` | U+FE5C | 65116 | SMALL RIGHT CURLY BRACKET |
+| `﹝` | U+FE5D | 65117 | SMALL LEFT TORTOISE SHELL BRACKET |
+| `﹞` | U+FE5E | 65118 | SMALL RIGHT TORTOISE SHELL BRACKET |
+| `﹟` | U+FE5F | 65119 | SMALL NUMBER SIGN |
+| `﹠` | U+FE60 | 65120 | SMALL AMPERSAND |
+| `﹡` | U+FE61 | 65121 | SMALL ASTERISK |
+| `﹢` | U+FE62 | 65122 | SMALL PLUS SIGN |
+| `﹣` | U+FE63 | 65123 | SMALL HYPHEN-MINUS |
+| `﹤` | U+FE64 | 65124 | SMALL LESS-THAN SIGN |
+| `﹥` | U+FE65 | 65125 | SMALL GREATER-THAN SIGN |
+| `﹦` | U+FE66 | 65126 | SMALL EQUALS SIGN |
+| `﹨` | U+FE68 | 65128 | SMALL REVERSE SOLIDUS |
+| `﹩` | U+FE69 | 65129 | SMALL DOLLAR SIGN |
+| `﹪` | U+FE6A | 65130 | SMALL PERCENT SIGN |
+| `﹫` | U+FE6B | 65131 | SMALL COMMERCIAL AT |

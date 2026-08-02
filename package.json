@@ -1,19 +1,81 @@
 {
   "name": "unicode-picker",
   "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": { },
+  "description": "A framework-agnostic, tree-shakable Unicode character picker component in vanilla TypeScript",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "unpkg": "./dist/unicode-picker.global.js",
+  "jsdelivr": "./dist/unicode-picker.global.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./data": {
+      "types": "./dist/data/index.d.ts",
+      "import": "./dist/data/index.js"
+    },
+    "./adapters": {
+      "types": "./dist/adapters.d.ts",
+      "import": "./dist/adapters.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "gen:data": "tsx scripts/gen-data.ts",
+    "gen:docs": "tsx scripts/gen-docs.ts",
+    "gen": "npm run gen:data && npm run gen:docs",
+    "prepare": "npm run gen:data",
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "coverage": "vitest run --coverage",
+    "test:e2e": "node tests/e2e/smoke.mjs",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . && prettier --check \"src/**/*.ts\" \"scripts/**/*.ts\"",
+    "format": "prettier --write \"src/**/*.ts\" \"scripts/**/*.ts\"",
+    "prepublishOnly": "npm run gen:data && npm run build"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jcubic/unicode-picker.git"
   },
-  "keywords": ["unicode", "ui", "component", "picker", "character", "emoji", "unicode-picker"],
+  "keywords": [
+    "unicode",
+    "ui",
+    "component",
+    "picker",
+    "character",
+    "emoji",
+    "unicode-picker"
+  ],
   "author": "Jakub T. Jankiewicz <jcubic@onet.pl> (https://jakub.jankiewicz.org/)",
   "license": "MIT",
-  "type": "module",
   "bugs": {
     "url": "https://github.com/jcubic/unicode-picker/issues"
   },
-  "homepage": "https://github.com/jcubic/unicode-picker#readme"
+  "homepage": "https://github.com/jcubic/unicode-picker#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.12.0",
+    "@types/node": "^22.7.0",
+    "@unicode/unicode-17.0.0": "^1.6.17",
+    "@vitest/coverage-v8": "^2.1.2",
+    "emojibase-data": "^17.0.0",
+    "eslint": "^9.12.0",
+    "happy-dom": "^15.7.4",
+    "playwright": "^1.48.0",
+    "prettier": "^3.3.3",
+    "tsup": "^8.3.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.8.0",
+    "vitest": "^2.1.2"
+  }
 }

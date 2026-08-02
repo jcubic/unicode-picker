@@ -1,0 +1,106 @@
+# Basic Latin
+
+```ts
+import { basicLatin } from 'unicode-picker/data';
+```
+
+- Range: U+0020–U+007E
+- Characters: 95
+
+| Char | Code point | Decimal | Name |
+| --- | --- | --- | --- |
+| ` ` | U+0020 | 32 | SPACE |
+| `!` | U+0021 | 33 | EXCLAMATION MARK |
+| `"` | U+0022 | 34 | QUOTATION MARK |
+| `#` | U+0023 | 35 | NUMBER SIGN |
+| `$` | U+0024 | 36 | DOLLAR SIGN |
+| `%` | U+0025 | 37 | PERCENT SIGN |
+| `&` | U+0026 | 38 | AMPERSAND |
+| `'` | U+0027 | 39 | APOSTROPHE |
+| `(` | U+0028 | 40 | LEFT PARENTHESIS |
+| `)` | U+0029 | 41 | RIGHT PARENTHESIS |
+| `*` | U+002A | 42 | ASTERISK |
+| `+` | U+002B | 43 | PLUS SIGN |
+| `,` | U+002C | 44 | COMMA |
+| `-` | U+002D | 45 | HYPHEN-MINUS |
+| `.` | U+002E | 46 | FULL STOP |
+| `/` | U+002F | 47 | SOLIDUS |
+| `0` | U+0030 | 48 | DIGIT ZERO |
+| `1` | U+0031 | 49 | DIGIT ONE |
+| `2` | U+0032 | 50 | DIGIT TWO |
+| `3` | U+0033 | 51 | DIGIT THREE |
+| `4` | U+0034 | 52 | DIGIT FOUR |
+| `5` | U+0035 | 53 | DIGIT FIVE |
+| `6` | U+0036 | 54 | DIGIT SIX |
+| `7` | U+0037 | 55 | DIGIT SEVEN |
+| `8` | U+0038 | 56 | DIGIT EIGHT |
+| `9` | U+0039 | 57 | DIGIT NINE |
+| `:` | U+003A | 58 | COLON |
+| `;` | U+003B | 59 | SEMICOLON |
+| `<` | U+003C | 60 | LESS-THAN SIGN |
+| `=` | U+003D | 61 | EQUALS SIGN |
+| `>` | U+003E | 62 | GREATER-THAN SIGN |
+| `?` | U+003F | 63 | QUESTION MARK |
+| `@` | U+0040 | 64 | COMMERCIAL AT |
+| `A` | U+0041 | 65 | LATIN CAPITAL LETTER A |
+| `B` | U+0042 | 66 | LATIN CAPITAL LETTER B |
+| `C` | U+0043 | 67 | LATIN CAPITAL LETTER C |
+| `D` | U+0044 | 68 | LATIN CAPITAL LETTER D |
+| `E` | U+0045 | 69 | LATIN CAPITAL LETTER E |
+| `F` | U+0046 | 70 | LATIN CAPITAL LETTER F |
+| `G` | U+0047 | 71 | LATIN CAPITAL LETTER G |
+| `H` | U+0048 | 72 | LATIN CAPITAL LETTER H |
+| `I` | U+0049 | 73 | LATIN CAPITAL LETTER I |
+| `J` | U+004A | 74 | LATIN CAPITAL LETTER J |
+| `K` | U+004B | 75 | LATIN CAPITAL LETTER K |
+| `L` | U+004C | 76 | LATIN CAPITAL LETTER L |
+| `M` | U+004D | 77 | LATIN CAPITAL LETTER M |
+| `N` | U+004E | 78 | LATIN CAPITAL LETTER N |
+| `O` | U+004F | 79 | LATIN CAPITAL LETTER O |
+| `P` | U+0050 | 80 | LATIN CAPITAL LETTER P |
+| `Q` | U+0051 | 81 | LATIN CAPITAL LETTER Q |
+| `R` | U+0052 | 82 | LATIN CAPITAL LETTER R |
+| `S` | U+0053 | 83 | LATIN CAPITAL LETTER S |
+| `T` | U+0054 | 84 | LATIN CAPITAL LETTER T |
+| `U` | U+0055 | 85 | LATIN CAPITAL LETTER U |
+| `V` | U+0056 | 86 | LATIN CAPITAL LETTER V |
+| `W` | U+0057 | 87 | LATIN CAPITAL LETTER W |
+| `X` | U+0058 | 88 | LATIN CAPITAL LETTER X |
+| `Y` | U+0059 | 89 | LATIN CAPITAL LETTER Y |
+| `Z` | U+005A | 90 | LATIN CAPITAL LETTER Z |
+| `[` | U+005B | 91 | LEFT SQUARE BRACKET |
+| `\` | U+005C | 92 | REVERSE SOLIDUS |
+| `]` | U+005D | 93 | RIGHT SQUARE BRACKET |
+| `^` | U+005E | 94 | CIRCUMFLEX ACCENT |
+| `_` | U+005F | 95 | LOW LINE |
+| `` ` `` | U+0060 | 96 | GRAVE ACCENT |
+| `a` | U+0061 | 97 | LATIN SMALL LETTER A |
+| `b` | U+0062 | 98 | LATIN SMALL LETTER B |
+| `c` | U+0063 | 99 | LATIN SMALL LETTER C |
+| `d` | U+0064 | 100 | LATIN SMALL LETTER D |
+| `e` | U+0065 | 101 | LATIN SMALL LETTER E |
+| `f` | U+0066 | 102 | LATIN SMALL LETTER F |
+| `g` | U+0067 | 103 | LATIN SMALL LETTER G |
+| `h` | U+0068 | 104 | LATIN SMALL LETTER H |
+| `i` | U+0069 | 105 | LATIN SMALL LETTER I |
+| `j` | U+006A | 106 | LATIN SMALL LETTER J |
+| `k` | U+006B | 107 | LATIN SMALL LETTER K |
+| `l` | U+006C | 108 | LATIN SMALL LETTER L |
+| `m` | U+006D | 109 | LATIN SMALL LETTER M |
+| `n` | U+006E | 110 | LATIN SMALL LETTER N |
+| `o` | U+006F | 111 | LATIN SMALL LETTER O |
+| `p` | U+0070 | 112 | LATIN SMALL LETTER P |
+| `q` | U+0071 | 113 | LATIN SMALL LETTER Q |
+| `r` | U+0072 | 114 | LATIN SMALL LETTER R |
+| `s` | U+0073 | 115 | LATIN SMALL LETTER S |
+| `t` | U+0074 | 116 | LATIN SMALL LETTER T |
+| `u` | U+0075 | 117 | LATIN SMALL LETTER U |
+| `v` | U+0076 | 118 | LATIN SMALL LETTER V |
+| `w` | U+0077 | 119 | LATIN SMALL LETTER W |
+| `x` | U+0078 | 120 | LATIN SMALL LETTER X |
+| `y` | U+0079 | 121 | LATIN SMALL LETTER Y |
+| `z` | U+007A | 122 | LATIN SMALL LETTER Z |
+| `{` | U+007B | 123 | LEFT CURLY BRACKET |
+| \| | U+007C | 124 | VERTICAL LINE |
+| `}` | U+007D | 125 | RIGHT CURLY BRACKET |
+| `~` | U+007E | 126 | TILDE |

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>unicode-picker — demo</title>
+    <style>
+      body {
+        font: 15px/1.5 system-ui, sans-serif;
+        max-width: 720px;
+        margin: 40px auto;
+        padding: 0 16px;
+        color: #16202a;
+      }
+      h1 { font-size: 22px; }
+      .row { display: flex; gap: 10px; align-items: center; margin: 16px 0; }
+      button.open {
+        font: 600 14px system-ui;
+        padding: 9px 16px;
+        border: 1px solid #cbd5e1;
+        border-radius: 8px;
+        background: #f8fafc;
+        cursor: pointer;
+      }
+      textarea {
+        width: 100%;
+        min-height: 160px;
+        font: 16px ui-monospace, monospace;
+        padding: 12px;
+        border: 1px solid #cbd5e1;
+        border-radius: 8px;
+      }
+      code { background: #f1f5f9; padding: 1px 5px; border-radius: 4px; }
+    </style>
+  </head>
+  <body>
+    <h1>unicode-picker demo</h1>
+    <p>
+      Click the button to open the picker (anchored to it). Selecting a character and pressing
+      <b>Insert</b> (or double-clicking a cell) appends it to the textarea via the
+      <code>insert</code> event.
+    </p>
+
+    <div class="row">
+      <button class="open" id="open">Open picker ❖</button>
+      <label><input type="checkbox" id="emojiOnly" /> emoji only</label>
+      <label><input type="checkbox" id="everything" /> include everything (heavy)</label>
+    </div>
+
+    <textarea id="out" placeholder="Inserted characters appear here…"></textarea>
+
+    <!-- Core (≈21 KB) + optional full dataset (≈1.9 MB). -->
+    <script src="../dist/unicode-picker.global.js"></script>
+    <script src="../dist/unicode-picker-data.global.js"></script>
+    <script>
+      const { emoji, greekAndCoptic, mathematicalOperators, arrows, boxDrawing, currencySymbols } =
+        UnicodePickerData;
+
+      const out = document.getElementById('out');
+      const openBtn = document.getElementById('open');
+
+      const emojiOnlyBox = document.getElementById('emojiOnly');
+      const everythingBox = document.getElementById('everything');
+
+      let picker = null;
+      function makePicker() {
+        picker?.destroy();
+        const include = emojiOnlyBox.checked
+          ? [emoji]
+          : everythingBox.checked
+            ? UnicodePickerData.all
+            : [emoji, arrows, mathematicalOperators, greekAndCoptic, boxDrawing, currencySymbols];
+        picker = Picker({ width: 380, height: 480, include });
+        picker.append(document.body);
+        picker.on('insert', ({ char }) => {
+          out.value += char;
+          out.focus();
+        });
+        picker.on('select', (data) => {
+          console.log(data);
+        });
+      }
+      makePicker();
+
+      openBtn.addEventListener('click', () => picker.toggle({ anchor: openBtn }));
+      // "emoji only" wins over "everything"; keep the checkboxes mutually exclusive.
+      emojiOnlyBox.addEventListener('change', () => {
+        if (emojiOnlyBox.checked) everythingBox.checked = false;
+        makePicker();
+      });
+      everythingBox.addEventListener('change', () => {
+        if (everythingBox.checked) emojiOnlyBox.checked = false;
+        makePicker();
+      });
+    </script>
+  </body>
+</html>

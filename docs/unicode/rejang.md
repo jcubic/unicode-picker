@@ -1,0 +1,48 @@
+# Rejang
+
+```ts
+import { rejang } from 'unicode-picker/data';
+```
+
+- Range: U+A930–U+A95F
+- Characters: 37
+
+| Char | Code point | Decimal | Name |
+| --- | --- | --- | --- |
+| `ꤰ` | U+A930 | 43312 | REJANG LETTER KA |
+| `ꤱ` | U+A931 | 43313 | REJANG LETTER GA |
+| `ꤲ` | U+A932 | 43314 | REJANG LETTER NGA |
+| `ꤳ` | U+A933 | 43315 | REJANG LETTER TA |
+| `ꤴ` | U+A934 | 43316 | REJANG LETTER DA |
+| `ꤵ` | U+A935 | 43317 | REJANG LETTER NA |
+| `ꤶ` | U+A936 | 43318 | REJANG LETTER PA |
+| `ꤷ` | U+A937 | 43319 | REJANG LETTER BA |
+| `ꤸ` | U+A938 | 43320 | REJANG LETTER MA |
+| `ꤹ` | U+A939 | 43321 | REJANG LETTER CA |
+| `ꤺ` | U+A93A | 43322 | REJANG LETTER JA |
+| `ꤻ` | U+A93B | 43323 | REJANG LETTER NYA |
+| `ꤼ` | U+A93C | 43324 | REJANG LETTER SA |
+| `ꤽ` | U+A93D | 43325 | REJANG LETTER RA |
+| `ꤾ` | U+A93E | 43326 | REJANG LETTER LA |
+| `ꤿ` | U+A93F | 43327 | REJANG LETTER YA |
+| `ꥀ` | U+A940 | 43328 | REJANG LETTER WA |
+| `ꥁ` | U+A941 | 43329 | REJANG LETTER HA |
+| `ꥂ` | U+A942 | 43330 | REJANG LETTER MBA |
+| `ꥃ` | U+A943 | 43331 | REJANG LETTER NGGA |
+| `ꥄ` | U+A944 | 43332 | REJANG LETTER NDA |
+| `ꥅ` | U+A945 | 43333 | REJANG LETTER NYJA |
+| `ꥆ` | U+A946 | 43334 | REJANG LETTER A |
+| `ꥇ` | U+A947 | 43335 | REJANG VOWEL SIGN I |
+| `ꥈ` | U+A948 | 43336 | REJANG VOWEL SIGN U |
+| `ꥉ` | U+A949 | 43337 | REJANG VOWEL SIGN E |
+| `ꥊ` | U+A94A | 43338 | REJANG VOWEL SIGN AI |
+| `ꥋ` | U+A94B | 43339 | REJANG VOWEL SIGN O |
+| `ꥌ` | U+A94C | 43340 | REJANG VOWEL SIGN AU |
+| `ꥍ` | U+A94D | 43341 | REJANG VOWEL SIGN EU |
+| `ꥎ` | U+A94E | 43342 | REJANG VOWEL SIGN EA |
+| `ꥏ` | U+A94F | 43343 | REJANG CONSONANT SIGN NG |
+| `ꥐ` | U+A950 | 43344 | REJANG CONSONANT SIGN N |
+| `ꥑ` | U+A951 | 43345 | REJANG CONSONANT SIGN R |
+| `ꥒ` | U+A952 | 43346 | REJANG CONSONANT SIGN H |
+| `꥓` | U+A953 | 43347 | REJANG VIRAMA |
+| `꥟` | U+A95F | 43359 | REJANG SECTION MARK |

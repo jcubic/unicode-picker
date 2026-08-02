@@ -1,0 +1,36 @@
+# Makasar
+
+```ts
+import { makasar } from 'unicode-picker/data';
+```
+
+- Range: U+11EE0–U+11EF8
+- Characters: 25
+
+| Char | Code point | Decimal | Name |
+| --- | --- | --- | --- |
+| `𑻠` | U+11EE0 | 73440 | MAKASAR LETTER KA |
+| `𑻡` | U+11EE1 | 73441 | MAKASAR LETTER GA |
+| `𑻢` | U+11EE2 | 73442 | MAKASAR LETTER NGA |
+| `𑻣` | U+11EE3 | 73443 | MAKASAR LETTER PA |
+| `𑻤` | U+11EE4 | 73444 | MAKASAR LETTER BA |
+| `𑻥` | U+11EE5 | 73445 | MAKASAR LETTER MA |
+| `𑻦` | U+11EE6 | 73446 | MAKASAR LETTER TA |
+| `𑻧` | U+11EE7 | 73447 | MAKASAR LETTER DA |
+| `𑻨` | U+11EE8 | 73448 | MAKASAR LETTER NA |
+| `𑻩` | U+11EE9 | 73449 | MAKASAR LETTER CA |
+| `𑻪` | U+11EEA | 73450 | MAKASAR LETTER JA |
+| `𑻫` | U+11EEB | 73451 | MAKASAR LETTER NYA |
+| `𑻬` | U+11EEC | 73452 | MAKASAR LETTER YA |
+| `𑻭` | U+11EED | 73453 | MAKASAR LETTER RA |
+| `𑻮` | U+11EEE | 73454 | MAKASAR LETTER LA |
+| `𑻯` | U+11EEF | 73455 | MAKASAR LETTER VA |
+| `𑻰` | U+11EF0 | 73456 | MAKASAR LETTER SA |
+| `𑻱` | U+11EF1 | 73457 | MAKASAR LETTER A |
+| `𑻲` | U+11EF2 | 73458 | MAKASAR ANGKA |
+| `𑻳` | U+11EF3 | 73459 | MAKASAR VOWEL SIGN I |
+| `𑻴` | U+11EF4 | 73460 | MAKASAR VOWEL SIGN U |
+| `𑻵` | U+11EF5 | 73461 | MAKASAR VOWEL SIGN E |
+| `𑻶` | U+11EF6 | 73462 | MAKASAR VOWEL SIGN O |
+| `𑻷` | U+11EF7 | 73463 | MAKASAR PASSIMBANG |
+| `𑻸` | U+11EF8 | 73464 | MAKASAR END OF SECTION |

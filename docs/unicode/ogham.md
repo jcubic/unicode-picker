@@ -1,0 +1,40 @@
+# Ogham
+
+```ts
+import { ogham } from 'unicode-picker/data';
+```
+
+- Range: U+1680–U+169C
+- Characters: 29
+
+| Char | Code point | Decimal | Name |
+| --- | --- | --- | --- |
+| ` ` | U+1680 | 5760 | OGHAM SPACE MARK |
+| `ᚁ` | U+1681 | 5761 | OGHAM LETTER BEITH |
+| `ᚂ` | U+1682 | 5762 | OGHAM LETTER LUIS |
+| `ᚃ` | U+1683 | 5763 | OGHAM LETTER FEARN |
+| `ᚄ` | U+1684 | 5764 | OGHAM LETTER SAIL |
+| `ᚅ` | U+1685 | 5765 | OGHAM LETTER NION |
+| `ᚆ` | U+1686 | 5766 | OGHAM LETTER UATH |
+| `ᚇ` | U+1687 | 5767 | OGHAM LETTER DAIR |
+| `ᚈ` | U+1688 | 5768 | OGHAM LETTER TINNE |
+| `ᚉ` | U+1689 | 5769 | OGHAM LETTER COLL |
+| `ᚊ` | U+168A | 5770 | OGHAM LETTER CEIRT |
+| `ᚋ` | U+168B | 5771 | OGHAM LETTER MUIN |
+| `ᚌ` | U+168C | 5772 | OGHAM LETTER GORT |
+| `ᚍ` | U+168D | 5773 | OGHAM LETTER NGEADAL |
+| `ᚎ` | U+168E | 5774 | OGHAM LETTER STRAIF |
+| `ᚏ` | U+168F | 5775 | OGHAM LETTER RUIS |
+| `ᚐ` | U+1690 | 5776 | OGHAM LETTER AILM |
+| `ᚑ` | U+1691 | 5777 | OGHAM LETTER ONN |
+| `ᚒ` | U+1692 | 5778 | OGHAM LETTER UR |
+| `ᚓ` | U+1693 | 5779 | OGHAM LETTER EADHADH |
+| `ᚔ` | U+1694 | 5780 | OGHAM LETTER IODHADH |
+| `ᚕ` | U+1695 | 5781 | OGHAM LETTER EABHADH |
+| `ᚖ` | U+1696 | 5782 | OGHAM LETTER OR |
+| `ᚗ` | U+1697 | 5783 | OGHAM LETTER UILLEANN |
+| `ᚘ` | U+1698 | 5784 | OGHAM LETTER IFIN |
+| `ᚙ` | U+1699 | 5785 | OGHAM LETTER EAMHANCHOLL |
+| `ᚚ` | U+169A | 5786 | OGHAM LETTER PEITH |
+| `᚛` | U+169B | 5787 | OGHAM FEATHER MARK |
+| `᚜` | U+169C | 5788 | OGHAM REVERSED FEATHER MARK |

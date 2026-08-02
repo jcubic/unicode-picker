@@ -1,0 +1,94 @@
+# Lao
+
+```ts
+import { lao } from 'unicode-picker/data';
+```
+
+- Range: U+0E81–U+0EDF
+- Characters: 83
+
+| Char | Code point | Decimal | Name |
+| --- | --- | --- | --- |
+| `ກ` | U+0E81 | 3713 | LAO LETTER KO |
+| `ຂ` | U+0E82 | 3714 | LAO LETTER KHO SUNG |
+| `ຄ` | U+0E84 | 3716 | LAO LETTER KHO TAM |
+| `ຆ` | U+0E86 | 3718 | LAO LETTER PALI GHA |
+| `ງ` | U+0E87 | 3719 | LAO LETTER NGO |
+| `ຈ` | U+0E88 | 3720 | LAO LETTER CO |
+| `ຉ` | U+0E89 | 3721 | LAO LETTER PALI CHA |
+| `ຊ` | U+0E8A | 3722 | LAO LETTER SO TAM |
+| `ຌ` | U+0E8C | 3724 | LAO LETTER PALI JHA |
+| `ຍ` | U+0E8D | 3725 | LAO LETTER NYO |
+| `ຎ` | U+0E8E | 3726 | LAO LETTER PALI NYA |
+| `ຏ` | U+0E8F | 3727 | LAO LETTER PALI TTA |
+| `ຐ` | U+0E90 | 3728 | LAO LETTER PALI TTHA |
+| `ຑ` | U+0E91 | 3729 | LAO LETTER PALI DDA |
+| `ຒ` | U+0E92 | 3730 | LAO LETTER PALI DDHA |
+| `ຓ` | U+0E93 | 3731 | LAO LETTER PALI NNA |
+| `ດ` | U+0E94 | 3732 | LAO LETTER DO |
+| `ຕ` | U+0E95 | 3733 | LAO LETTER TO |
+| `ຖ` | U+0E96 | 3734 | LAO LETTER THO SUNG |
+| `ທ` | U+0E97 | 3735 | LAO LETTER THO TAM |
+| `ຘ` | U+0E98 | 3736 | LAO LETTER PALI DHA |
+| `ນ` | U+0E99 | 3737 | LAO LETTER NO |
+| `ບ` | U+0E9A | 3738 | LAO LETTER BO |
+| `ປ` | U+0E9B | 3739 | LAO LETTER PO |
+| `ຜ` | U+0E9C | 3740 | LAO LETTER PHO SUNG |
+| `ຝ` | U+0E9D | 3741 | LAO LETTER FO TAM |
+| `ພ` | U+0E9E | 3742 | LAO LETTER PHO TAM |
+| `ຟ` | U+0E9F | 3743 | LAO LETTER FO SUNG |
+| `ຠ` | U+0EA0 | 3744 | LAO LETTER PALI BHA |
+| `ມ` | U+0EA1 | 3745 | LAO LETTER MO |
+| `ຢ` | U+0EA2 | 3746 | LAO LETTER YO |
+| `ຣ` | U+0EA3 | 3747 | LAO LETTER LO LING |
+| `ລ` | U+0EA5 | 3749 | LAO LETTER LO LOOT |
+| `ວ` | U+0EA7 | 3751 | LAO LETTER WO |
+| `ຨ` | U+0EA8 | 3752 | LAO LETTER SANSKRIT SHA |
+| `ຩ` | U+0EA9 | 3753 | LAO LETTER SANSKRIT SSA |
+| `ສ` | U+0EAA | 3754 | LAO LETTER SO SUNG |
+| `ຫ` | U+0EAB | 3755 | LAO LETTER HO SUNG |
+| `ຬ` | U+0EAC | 3756 | LAO LETTER PALI LLA |
+| `ອ` | U+0EAD | 3757 | LAO LETTER O |
+| `ຮ` | U+0EAE | 3758 | LAO LETTER HO TAM |
+| `ຯ` | U+0EAF | 3759 | LAO ELLIPSIS |
+| `ະ` | U+0EB0 | 3760 | LAO VOWEL SIGN A |
+| `ັ` | U+0EB1 | 3761 | LAO VOWEL SIGN MAI KAN |
+| `າ` | U+0EB2 | 3762 | LAO VOWEL SIGN AA |
+| `ຳ` | U+0EB3 | 3763 | LAO VOWEL SIGN AM |
+| `ິ` | U+0EB4 | 3764 | LAO VOWEL SIGN I |
+| `ີ` | U+0EB5 | 3765 | LAO VOWEL SIGN II |
+| `ຶ` | U+0EB6 | 3766 | LAO VOWEL SIGN Y |
+| `ື` | U+0EB7 | 3767 | LAO VOWEL SIGN YY |
+| `ຸ` | U+0EB8 | 3768 | LAO VOWEL SIGN U |
+| `ູ` | U+0EB9 | 3769 | LAO VOWEL SIGN UU |
+| `຺` | U+0EBA | 3770 | LAO SIGN PALI VIRAMA |
+| `ົ` | U+0EBB | 3771 | LAO VOWEL SIGN MAI KON |
+| `ຼ` | U+0EBC | 3772 | LAO SEMIVOWEL SIGN LO |
+| `ຽ` | U+0EBD | 3773 | LAO SEMIVOWEL SIGN NYO |
+| `ເ` | U+0EC0 | 3776 | LAO VOWEL SIGN E |
+| `ແ` | U+0EC1 | 3777 | LAO VOWEL SIGN EI |
+| `ໂ` | U+0EC2 | 3778 | LAO VOWEL SIGN O |
+| `ໃ` | U+0EC3 | 3779 | LAO VOWEL SIGN AY |
+| `ໄ` | U+0EC4 | 3780 | LAO VOWEL SIGN AI |
+| `ໆ` | U+0EC6 | 3782 | LAO KO LA |
+| `່` | U+0EC8 | 3784 | LAO TONE MAI EK |
+| `້` | U+0EC9 | 3785 | LAO TONE MAI THO |
+| `໊` | U+0ECA | 3786 | LAO TONE MAI TI |
+| `໋` | U+0ECB | 3787 | LAO TONE MAI CATAWA |
+| `໌` | U+0ECC | 3788 | LAO CANCELLATION MARK |
+| `ໍ` | U+0ECD | 3789 | LAO NIGGAHITA |
+| `໎` | U+0ECE | 3790 | LAO YAMAKKAN |
+| `໐` | U+0ED0 | 3792 | LAO DIGIT ZERO |
+| `໑` | U+0ED1 | 3793 | LAO DIGIT ONE |
+| `໒` | U+0ED2 | 3794 | LAO DIGIT TWO |
+| `໓` | U+0ED3 | 3795 | LAO DIGIT THREE |
+| `໔` | U+0ED4 | 3796 | LAO DIGIT FOUR |
+| `໕` | U+0ED5 | 3797 | LAO DIGIT FIVE |
+| `໖` | U+0ED6 | 3798 | LAO DIGIT SIX |
+| `໗` | U+0ED7 | 3799 | LAO DIGIT SEVEN |
+| `໘` | U+0ED8 | 3800 | LAO DIGIT EIGHT |
+| `໙` | U+0ED9 | 3801 | LAO DIGIT NINE |
+| `ໜ` | U+0EDC | 3804 | LAO HO NO |
+| `ໝ` | U+0EDD | 3805 | LAO HO MO |
+| `ໞ` | U+0EDE | 3806 | LAO LETTER KHMU GO |
+| `ໟ` | U+0EDF | 3807 | LAO LETTER KHMU NYO |

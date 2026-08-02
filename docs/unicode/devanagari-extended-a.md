@@ -1,0 +1,21 @@
+# Devanagari Extended a
+
+```ts
+import { devanagariExtendedA } from 'unicode-picker/data';
+```
+
+- Range: U+11B00–U+11B09
+- Characters: 10
+
+| Char | Code point | Decimal | Name |
+| --- | --- | --- | --- |
+| `𑬀` | U+11B00 | 72448 | DEVANAGARI HEAD MARK |
+| `𑬁` | U+11B01 | 72449 | DEVANAGARI HEAD MARK WITH HEADSTROKE |
+| `𑬂` | U+11B02 | 72450 | DEVANAGARI SIGN BHALE |
+| `𑬃` | U+11B03 | 72451 | DEVANAGARI SIGN BHALE WITH HOOK |
+| `𑬄` | U+11B04 | 72452 | DEVANAGARI SIGN EXTENDED BHALE |
+| `𑬅` | U+11B05 | 72453 | DEVANAGARI SIGN EXTENDED BHALE WITH HOOK |
+| `𑬆` | U+11B06 | 72454 | DEVANAGARI SIGN WESTERN FIVE-LIKE BHALE |
+| `𑬇` | U+11B07 | 72455 | DEVANAGARI SIGN WESTERN NINE-LIKE BHALE |
+| `𑬈` | U+11B08 | 72456 | DEVANAGARI SIGN REVERSED NINE-LIKE BHALE |
+| `𑬉` | U+11B09 | 72457 | DEVANAGARI SIGN MINDU |

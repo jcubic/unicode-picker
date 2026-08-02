@@ -1,0 +1,40 @@
+# Mandaic
+
+```ts
+import { mandaic } from 'unicode-picker/data';
+```
+
+- Range: U+0840–U+085E
+- Characters: 29
+
+| Char | Code point | Decimal | Name |
+| --- | --- | --- | --- |
+| `ࡀ` | U+0840 | 2112 | MANDAIC LETTER HALQA |
+| `ࡁ` | U+0841 | 2113 | MANDAIC LETTER AB |
+| `ࡂ` | U+0842 | 2114 | MANDAIC LETTER AG |
+| `ࡃ` | U+0843 | 2115 | MANDAIC LETTER AD |
+| `ࡄ` | U+0844 | 2116 | MANDAIC LETTER AH |
+| `ࡅ` | U+0845 | 2117 | MANDAIC LETTER USHENNA |
+| `ࡆ` | U+0846 | 2118 | MANDAIC LETTER AZ |
+| `ࡇ` | U+0847 | 2119 | MANDAIC LETTER IT |
+| `ࡈ` | U+0848 | 2120 | MANDAIC LETTER ATT |
+| `ࡉ` | U+0849 | 2121 | MANDAIC LETTER AKSA |
+| `ࡊ` | U+084A | 2122 | MANDAIC LETTER AK |
+| `ࡋ` | U+084B | 2123 | MANDAIC LETTER AL |
+| `ࡌ` | U+084C | 2124 | MANDAIC LETTER AM |
+| `ࡍ` | U+084D | 2125 | MANDAIC LETTER AN |
+| `ࡎ` | U+084E | 2126 | MANDAIC LETTER AS |
+| `ࡏ` | U+084F | 2127 | MANDAIC LETTER IN |
+| `ࡐ` | U+0850 | 2128 | MANDAIC LETTER AP |
+| `ࡑ` | U+0851 | 2129 | MANDAIC LETTER ASZ |
+| `ࡒ` | U+0852 | 2130 | MANDAIC LETTER AQ |
+| `ࡓ` | U+0853 | 2131 | MANDAIC LETTER AR |
+| `ࡔ` | U+0854 | 2132 | MANDAIC LETTER ASH |
+| `ࡕ` | U+0855 | 2133 | MANDAIC LETTER AT |
+| `ࡖ` | U+0856 | 2134 | MANDAIC LETTER DUSHENNA |
+| `ࡗ` | U+0857 | 2135 | MANDAIC LETTER KAD |
+| `ࡘ` | U+0858 | 2136 | MANDAIC LETTER AIN |
+| `࡙` | U+0859 | 2137 | MANDAIC AFFRICATION MARK |
+| `࡚` | U+085A | 2138 | MANDAIC VOCALIZATION MARK |
+| `࡛` | U+085B | 2139 | MANDAIC GEMINATION MARK |
+| `࡞` | U+085E | 2142 | MANDAIC PUNCTUATION |

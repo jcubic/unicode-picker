@@ -1,0 +1,59 @@
+# Ol Chiki
+
+```ts
+import { olChiki } from 'unicode-picker/data';
+```
+
+- Range: U+1C50–U+1C7F
+- Characters: 48
+
+| Char | Code point | Decimal | Name |
+| --- | --- | --- | --- |
+| `᱐` | U+1C50 | 7248 | OL CHIKI DIGIT ZERO |
+| `᱑` | U+1C51 | 7249 | OL CHIKI DIGIT ONE |
+| `᱒` | U+1C52 | 7250 | OL CHIKI DIGIT TWO |
+| `᱓` | U+1C53 | 7251 | OL CHIKI DIGIT THREE |
+| `᱔` | U+1C54 | 7252 | OL CHIKI DIGIT FOUR |
+| `᱕` | U+1C55 | 7253 | OL CHIKI DIGIT FIVE |
+| `᱖` | U+1C56 | 7254 | OL CHIKI DIGIT SIX |
+| `᱗` | U+1C57 | 7255 | OL CHIKI DIGIT SEVEN |
+| `᱘` | U+1C58 | 7256 | OL CHIKI DIGIT EIGHT |
+| `᱙` | U+1C59 | 7257 | OL CHIKI DIGIT NINE |
+| `ᱚ` | U+1C5A | 7258 | OL CHIKI LETTER LA |
+| `ᱛ` | U+1C5B | 7259 | OL CHIKI LETTER AT |
+| `ᱜ` | U+1C5C | 7260 | OL CHIKI LETTER AG |
+| `ᱝ` | U+1C5D | 7261 | OL CHIKI LETTER ANG |
+| `ᱞ` | U+1C5E | 7262 | OL CHIKI LETTER AL |
+| `ᱟ` | U+1C5F | 7263 | OL CHIKI LETTER LAA |
+| `ᱠ` | U+1C60 | 7264 | OL CHIKI LETTER AAK |
+| `ᱡ` | U+1C61 | 7265 | OL CHIKI LETTER AAJ |
+| `ᱢ` | U+1C62 | 7266 | OL CHIKI LETTER AAM |
+| `ᱣ` | U+1C63 | 7267 | OL CHIKI LETTER AAW |
+| `ᱤ` | U+1C64 | 7268 | OL CHIKI LETTER LI |
+| `ᱥ` | U+1C65 | 7269 | OL CHIKI LETTER IS |
+| `ᱦ` | U+1C66 | 7270 | OL CHIKI LETTER IH |
+| `ᱧ` | U+1C67 | 7271 | OL CHIKI LETTER INY |
+| `ᱨ` | U+1C68 | 7272 | OL CHIKI LETTER IR |
+| `ᱩ` | U+1C69 | 7273 | OL CHIKI LETTER LU |
+| `ᱪ` | U+1C6A | 7274 | OL CHIKI LETTER UC |
+| `ᱫ` | U+1C6B | 7275 | OL CHIKI LETTER UD |
+| `ᱬ` | U+1C6C | 7276 | OL CHIKI LETTER UNN |
+| `ᱭ` | U+1C6D | 7277 | OL CHIKI LETTER UY |
+| `ᱮ` | U+1C6E | 7278 | OL CHIKI LETTER LE |
+| `ᱯ` | U+1C6F | 7279 | OL CHIKI LETTER EP |
+| `ᱰ` | U+1C70 | 7280 | OL CHIKI LETTER EDD |
+| `ᱱ` | U+1C71 | 7281 | OL CHIKI LETTER EN |
+| `ᱲ` | U+1C72 | 7282 | OL CHIKI LETTER ERR |
+| `ᱳ` | U+1C73 | 7283 | OL CHIKI LETTER LO |
+| `ᱴ` | U+1C74 | 7284 | OL CHIKI LETTER OTT |
+| `ᱵ` | U+1C75 | 7285 | OL CHIKI LETTER OB |
+| `ᱶ` | U+1C76 | 7286 | OL CHIKI LETTER OV |
+| `ᱷ` | U+1C77 | 7287 | OL CHIKI LETTER OH |
+| `ᱸ` | U+1C78 | 7288 | OL CHIKI MU TTUDDAG |
+| `ᱹ` | U+1C79 | 7289 | OL CHIKI GAAHLAA TTUDDAAG |
+| `ᱺ` | U+1C7A | 7290 | OL CHIKI MU-GAAHLAA TTUDDAAG |
+| `ᱻ` | U+1C7B | 7291 | OL CHIKI RELAA |
+| `ᱼ` | U+1C7C | 7292 | OL CHIKI PHAARKAA |
+| `ᱽ` | U+1C7D | 7293 | OL CHIKI AHAD |
+| `᱾` | U+1C7E | 7294 | OL CHIKI PUNCTUATION MUCAAD |
+| `᱿` | U+1C7F | 7295 | OL CHIKI PUNCTUATION DOUBLE MUCAAD |

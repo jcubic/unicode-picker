@@ -1,0 +1,42 @@
+# Toto
+
+```ts
+import { toto } from 'unicode-picker/data';
+```
+
+- Range: U+1E290–U+1E2AE
+- Characters: 31
+
+| Char | Code point | Decimal | Name |
+| --- | --- | --- | --- |
+| `𞊐` | U+1E290 | 123536 | TOTO LETTER PA |
+| `𞊑` | U+1E291 | 123537 | TOTO LETTER BA |
+| `𞊒` | U+1E292 | 123538 | TOTO LETTER TA |
+| `𞊓` | U+1E293 | 123539 | TOTO LETTER DA |
+| `𞊔` | U+1E294 | 123540 | TOTO LETTER KA |
+| `𞊕` | U+1E295 | 123541 | TOTO LETTER GA |
+| `𞊖` | U+1E296 | 123542 | TOTO LETTER MA |
+| `𞊗` | U+1E297 | 123543 | TOTO LETTER NA |
+| `𞊘` | U+1E298 | 123544 | TOTO LETTER NGA |
+| `𞊙` | U+1E299 | 123545 | TOTO LETTER SA |
+| `𞊚` | U+1E29A | 123546 | TOTO LETTER CHA |
+| `𞊛` | U+1E29B | 123547 | TOTO LETTER YA |
+| `𞊜` | U+1E29C | 123548 | TOTO LETTER WA |
+| `𞊝` | U+1E29D | 123549 | TOTO LETTER JA |
+| `𞊞` | U+1E29E | 123550 | TOTO LETTER HA |
+| `𞊟` | U+1E29F | 123551 | TOTO LETTER RA |
+| `𞊠` | U+1E2A0 | 123552 | TOTO LETTER LA |
+| `𞊡` | U+1E2A1 | 123553 | TOTO LETTER I |
+| `𞊢` | U+1E2A2 | 123554 | TOTO LETTER BREATHY I |
+| `𞊣` | U+1E2A3 | 123555 | TOTO LETTER IU |
+| `𞊤` | U+1E2A4 | 123556 | TOTO LETTER BREATHY IU |
+| `𞊥` | U+1E2A5 | 123557 | TOTO LETTER U |
+| `𞊦` | U+1E2A6 | 123558 | TOTO LETTER E |
+| `𞊧` | U+1E2A7 | 123559 | TOTO LETTER BREATHY E |
+| `𞊨` | U+1E2A8 | 123560 | TOTO LETTER EO |
+| `𞊩` | U+1E2A9 | 123561 | TOTO LETTER BREATHY EO |
+| `𞊪` | U+1E2AA | 123562 | TOTO LETTER O |
+| `𞊫` | U+1E2AB | 123563 | TOTO LETTER AE |
+| `𞊬` | U+1E2AC | 123564 | TOTO LETTER BREATHY AE |
+| `𞊭` | U+1E2AD | 123565 | TOTO LETTER A |
+| `𞊮` | U+1E2AE | 123566 | TOTO SIGN RISING TONE |

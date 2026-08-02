@@ -1,0 +1,83 @@
+# Tamil
+
+```ts
+import { tamil } from 'unicode-picker/data';
+```
+
+- Range: U+0B82–U+0BFA
+- Characters: 72
+
+| Char | Code point | Decimal | Name |
+| --- | --- | --- | --- |
+| `ஂ` | U+0B82 | 2946 | TAMIL SIGN ANUSVARA |
+| `ஃ` | U+0B83 | 2947 | TAMIL SIGN VISARGA |
+| `அ` | U+0B85 | 2949 | TAMIL LETTER A |
+| `ஆ` | U+0B86 | 2950 | TAMIL LETTER AA |
+| `இ` | U+0B87 | 2951 | TAMIL LETTER I |
+| `ஈ` | U+0B88 | 2952 | TAMIL LETTER II |
+| `உ` | U+0B89 | 2953 | TAMIL LETTER U |
+| `ஊ` | U+0B8A | 2954 | TAMIL LETTER UU |
+| `எ` | U+0B8E | 2958 | TAMIL LETTER E |
+| `ஏ` | U+0B8F | 2959 | TAMIL LETTER EE |
+| `ஐ` | U+0B90 | 2960 | TAMIL LETTER AI |
+| `ஒ` | U+0B92 | 2962 | TAMIL LETTER O |
+| `ஓ` | U+0B93 | 2963 | TAMIL LETTER OO |
+| `ஔ` | U+0B94 | 2964 | TAMIL LETTER AU |
+| `க` | U+0B95 | 2965 | TAMIL LETTER KA |
+| `ங` | U+0B99 | 2969 | TAMIL LETTER NGA |
+| `ச` | U+0B9A | 2970 | TAMIL LETTER CA |
+| `ஜ` | U+0B9C | 2972 | TAMIL LETTER JA |
+| `ஞ` | U+0B9E | 2974 | TAMIL LETTER NYA |
+| `ட` | U+0B9F | 2975 | TAMIL LETTER TTA |
+| `ண` | U+0BA3 | 2979 | TAMIL LETTER NNA |
+| `த` | U+0BA4 | 2980 | TAMIL LETTER TA |
+| `ந` | U+0BA8 | 2984 | TAMIL LETTER NA |
+| `ன` | U+0BA9 | 2985 | TAMIL LETTER NNNA |
+| `ப` | U+0BAA | 2986 | TAMIL LETTER PA |
+| `ம` | U+0BAE | 2990 | TAMIL LETTER MA |
+| `ய` | U+0BAF | 2991 | TAMIL LETTER YA |
+| `ர` | U+0BB0 | 2992 | TAMIL LETTER RA |
+| `ற` | U+0BB1 | 2993 | TAMIL LETTER RRA |
+| `ல` | U+0BB2 | 2994 | TAMIL LETTER LA |
+| `ள` | U+0BB3 | 2995 | TAMIL LETTER LLA |
+| `ழ` | U+0BB4 | 2996 | TAMIL LETTER LLLA |
+| `வ` | U+0BB5 | 2997 | TAMIL LETTER VA |
+| `ஶ` | U+0BB6 | 2998 | TAMIL LETTER SHA |
+| `ஷ` | U+0BB7 | 2999 | TAMIL LETTER SSA |
+| `ஸ` | U+0BB8 | 3000 | TAMIL LETTER SA |
+| `ஹ` | U+0BB9 | 3001 | TAMIL LETTER HA |
+| `ா` | U+0BBE | 3006 | TAMIL VOWEL SIGN AA |
+| `ி` | U+0BBF | 3007 | TAMIL VOWEL SIGN I |
+| `ீ` | U+0BC0 | 3008 | TAMIL VOWEL SIGN II |
+| `ு` | U+0BC1 | 3009 | TAMIL VOWEL SIGN U |
+| `ூ` | U+0BC2 | 3010 | TAMIL VOWEL SIGN UU |
+| `ெ` | U+0BC6 | 3014 | TAMIL VOWEL SIGN E |
+| `ே` | U+0BC7 | 3015 | TAMIL VOWEL SIGN EE |
+| `ை` | U+0BC8 | 3016 | TAMIL VOWEL SIGN AI |
+| `ொ` | U+0BCA | 3018 | TAMIL VOWEL SIGN O |
+| `ோ` | U+0BCB | 3019 | TAMIL VOWEL SIGN OO |
+| `ௌ` | U+0BCC | 3020 | TAMIL VOWEL SIGN AU |
+| `்` | U+0BCD | 3021 | TAMIL SIGN VIRAMA |
+| `ௐ` | U+0BD0 | 3024 | TAMIL OM |
+| `ௗ` | U+0BD7 | 3031 | TAMIL AU LENGTH MARK |
+| `௦` | U+0BE6 | 3046 | TAMIL DIGIT ZERO |
+| `௧` | U+0BE7 | 3047 | TAMIL DIGIT ONE |
+| `௨` | U+0BE8 | 3048 | TAMIL DIGIT TWO |
+| `௩` | U+0BE9 | 3049 | TAMIL DIGIT THREE |
+| `௪` | U+0BEA | 3050 | TAMIL DIGIT FOUR |
+| `௫` | U+0BEB | 3051 | TAMIL DIGIT FIVE |
+| `௬` | U+0BEC | 3052 | TAMIL DIGIT SIX |
+| `௭` | U+0BED | 3053 | TAMIL DIGIT SEVEN |
+| `௮` | U+0BEE | 3054 | TAMIL DIGIT EIGHT |
+| `௯` | U+0BEF | 3055 | TAMIL DIGIT NINE |
+| `௰` | U+0BF0 | 3056 | TAMIL NUMBER TEN |
+| `௱` | U+0BF1 | 3057 | TAMIL NUMBER ONE HUNDRED |
+| `௲` | U+0BF2 | 3058 | TAMIL NUMBER ONE THOUSAND |
+| `௳` | U+0BF3 | 3059 | TAMIL DAY SIGN |
+| `௴` | U+0BF4 | 3060 | TAMIL MONTH SIGN |
+| `௵` | U+0BF5 | 3061 | TAMIL YEAR SIGN |
+| `௶` | U+0BF6 | 3062 | TAMIL DEBIT SIGN |
+| `௷` | U+0BF7 | 3063 | TAMIL CREDIT SIGN |
+| `௸` | U+0BF8 | 3064 | TAMIL AS ABOVE SIGN |
+| `௹` | U+0BF9 | 3065 | TAMIL RUPEE SIGN |
+| `௺` | U+0BFA | 3066 | TAMIL NUMBER SIGN |

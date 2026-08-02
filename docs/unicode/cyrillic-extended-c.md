@@ -1,0 +1,22 @@
+# Cyrillic Extended C
+
+```ts
+import { cyrillicExtendedC } from 'unicode-picker/data';
+```
+
+- Range: U+1C80–U+1C8A
+- Characters: 11
+
+| Char | Code point | Decimal | Name |
+| --- | --- | --- | --- |
+| `ᲀ` | U+1C80 | 7296 | CYRILLIC SMALL LETTER ROUNDED VE |
+| `ᲁ` | U+1C81 | 7297 | CYRILLIC SMALL LETTER LONG-LEGGED DE |
+| `ᲂ` | U+1C82 | 7298 | CYRILLIC SMALL LETTER NARROW O |
+| `ᲃ` | U+1C83 | 7299 | CYRILLIC SMALL LETTER WIDE ES |
+| `ᲄ` | U+1C84 | 7300 | CYRILLIC SMALL LETTER TALL TE |
+| `ᲅ` | U+1C85 | 7301 | CYRILLIC SMALL LETTER THREE-LEGGED TE |
+| `ᲆ` | U+1C86 | 7302 | CYRILLIC SMALL LETTER TALL HARD SIGN |
+| `ᲇ` | U+1C87 | 7303 | CYRILLIC SMALL LETTER TALL YAT |
+| `ᲈ` | U+1C88 | 7304 | CYRILLIC SMALL LETTER UNBLENDED UK |
+| `Ᲊ` | U+1C89 | 7305 | CYRILLIC CAPITAL LETTER TJE |
+| `ᲊ` | U+1C8A | 7306 | CYRILLIC SMALL LETTER TJE |
