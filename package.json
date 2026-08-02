@@ -1,0 +1,19 @@
+{
+  "name": "unicode-picker",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": { },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcubic/unicode-picker.git"
+  },
+  "keywords": ["unicode", "ui", "component", "picker", "character", "emoji", "unicode-picker"],
+  "author": "Jakub T. Jankiewicz <jcubic@onet.pl> (https://jakub.jankiewicz.org/)",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/jcubic/unicode-picker/issues"
+  },
+  "homepage": "https://github.com/jcubic/unicode-picker#readme"
+}
